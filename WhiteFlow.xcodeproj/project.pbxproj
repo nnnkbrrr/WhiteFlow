@@ -7,16 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630FC2DD2C2030FA00116F8F /* Graphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FC2DC2C2030F900116F8F /* Graphic.swift */; };
+		630FC3002C20439000116F8F /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FC2FF2C20439000116F8F /* Canvas.swift */; };
+		630FC3082C204CCF00116F8F /* Vector Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FC3072C204CCF00116F8F /* Vector Layer.swift */; };
+		630FC30A2C20528400116F8F /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FC3092C20528400116F8F /* Page.swift */; };
+		630FC30D2C20607600116F8F /* Scrollable View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FC30C2C20607600116F8F /* Scrollable View.swift */; };
+		630FC30F2C2079AA00116F8F /* UTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FC30E2C2079AA00116F8F /* UTType.swift */; };
+		630FC3112C207ACD00116F8F /* Migration Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FC3102C207AB900116F8F /* Migration Plan.swift */; };
+		630FC3132C207B0000116F8F /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FC3122C207B0000116F8F /* Document.swift */; };
+		630FC3172C20C31000116F8F /* WFPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FC3162C20C31000116F8F /* WFPoint.swift */; };
+		630FC3192C20C3F300116F8F /* WFSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FC3182C20C3F300116F8F /* WFSize.swift */; };
 		638442092C1DB1BC00F5B913 /* WhiteFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638442082C1DB1BC00F5B913 /* WhiteFlowApp.swift */; };
-		6384420B2C1DB1BC00F5B913 /* WhiteFlowDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6384420A2C1DB1BC00F5B913 /* WhiteFlowDocument.swift */; };
 		6384420D2C1DB1BC00F5B913 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6384420C2C1DB1BC00F5B913 /* ContentView.swift */; };
 		6384420F2C1DB1BF00F5B913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6384420E2C1DB1BF00F5B913 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		630FC2DC2C2030F900116F8F /* Graphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphic.swift; sourceTree = "<group>"; };
+		630FC2FF2C20439000116F8F /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		630FC3072C204CCF00116F8F /* Vector Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vector Layer.swift"; sourceTree = "<group>"; };
+		630FC3092C20528400116F8F /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		630FC30C2C20607600116F8F /* Scrollable View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scrollable View.swift"; sourceTree = "<group>"; };
+		630FC30E2C2079AA00116F8F /* UTType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTType.swift; sourceTree = "<group>"; };
+		630FC3102C207AB900116F8F /* Migration Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Migration Plan.swift"; sourceTree = "<group>"; };
+		630FC3122C207B0000116F8F /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		630FC3162C20C31000116F8F /* WFPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFPoint.swift; sourceTree = "<group>"; };
+		630FC3182C20C3F300116F8F /* WFSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFSize.swift; sourceTree = "<group>"; };
 		638442052C1DB1BB00F5B913 /* WhiteFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		638442082C1DB1BC00F5B913 /* WhiteFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteFlowApp.swift; sourceTree = "<group>"; };
-		6384420A2C1DB1BC00F5B913 /* WhiteFlowDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteFlowDocument.swift; sourceTree = "<group>"; };
 		6384420C2C1DB1BC00F5B913 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6384420E2C1DB1BF00F5B913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		638442102C1DB1BF00F5B913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,6 +52,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		630FC2DB2C2030D500116F8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				630FC3152C20C30400116F8F /* Types */,
+				630FC3022C204AE000116F8F /* Vector */,
+				630FC3012C204ADB00116F8F /* Raster */,
+				630FC2DC2C2030F900116F8F /* Graphic.swift */,
+				630FC2FF2C20439000116F8F /* Canvas.swift */,
+				630FC3092C20528400116F8F /* Page.swift */,
+				630FC3122C207B0000116F8F /* Document.swift */,
+				630FC3102C207AB900116F8F /* Migration Plan.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		630FC2DE2C20323000116F8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6384420C2C1DB1BC00F5B913 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		630FC3012C204ADB00116F8F /* Raster */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Raster;
+			sourceTree = "<group>";
+		};
+		630FC3022C204AE000116F8F /* Vector */ = {
+			isa = PBXGroup;
+			children = (
+				630FC3072C204CCF00116F8F /* Vector Layer.swift */,
+			);
+			path = Vector;
+			sourceTree = "<group>";
+		};
+		630FC30B2C20605800116F8F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				630FC30C2C20607600116F8F /* Scrollable View.swift */,
+				630FC30E2C2079AA00116F8F /* UTType.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		630FC3152C20C30400116F8F /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				630FC3162C20C31000116F8F /* WFPoint.swift */,
+				630FC3182C20C3F300116F8F /* WFSize.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
 		638441FC2C1DB1BB00F5B913 = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +127,9 @@
 		638442072C1DB1BC00F5B913 /* WhiteFlow */ = {
 			isa = PBXGroup;
 			children = (
-				6384420C2C1DB1BC00F5B913 /* ContentView.swift */,
+				630FC2DE2C20323000116F8F /* Views */,
+				630FC2DB2C2030D500116F8F /* Models */,
+				630FC30B2C20605800116F8F /* Helpers */,
 				6384421D2C1E31CA00F5B913 /* Resources */,
 			);
 			path = WhiteFlow;
@@ -63,7 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				638442082C1DB1BC00F5B913 /* WhiteFlowApp.swift */,
-				6384420A2C1DB1BC00F5B913 /* WhiteFlowDocument.swift */,
 				638442102C1DB1BF00F5B913 /* Info.plist */,
 				638442112C1DB1BF00F5B913 /* WhiteFlow.entitlements */,
 				6384420E2C1DB1BF00F5B913 /* Assets.xcassets */,
@@ -148,9 +223,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6384420B2C1DB1BC00F5B913 /* WhiteFlowDocument.swift in Sources */,
+				630FC30F2C2079AA00116F8F /* UTType.swift in Sources */,
 				638442092C1DB1BC00F5B913 /* WhiteFlowApp.swift in Sources */,
+				630FC2DD2C2030FA00116F8F /* Graphic.swift in Sources */,
+				630FC3132C207B0000116F8F /* Document.swift in Sources */,
+				630FC3082C204CCF00116F8F /* Vector Layer.swift in Sources */,
+				630FC30A2C20528400116F8F /* Page.swift in Sources */,
+				630FC3002C20439000116F8F /* Canvas.swift in Sources */,
+				630FC3192C20C3F300116F8F /* WFSize.swift in Sources */,
+				630FC30D2C20607600116F8F /* Scrollable View.swift in Sources */,
+				630FC3112C207ACD00116F8F /* Migration Plan.swift in Sources */,
 				6384420D2C1DB1BC00F5B913 /* ContentView.swift in Sources */,
+				630FC3172C20C31000116F8F /* WFPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,13 +387,14 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nnnkbrrr.WhiteFlow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteflowapp.whiteflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -346,13 +431,14 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nnnkbrrr.WhiteFlow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteflowapp.whiteflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;

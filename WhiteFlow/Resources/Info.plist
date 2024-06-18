@@ -11,10 +11,10 @@
 			<string>Default</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>com.WhiteFlow.wflow</string>
+				<string>com.whiteflowapp.whiteflow</string>
 			</array>
 			<key>NSUbiquitousDocumentUserActivityType</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER).exampledocument</string>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER).wflow</string>
 		</dict>
 	</array>
 	<key>UTImportedTypeDeclarations</key>
@@ -22,20 +22,19 @@
 		<dict>
 			<key>UTTypeConformsTo</key>
 			<array>
-				<string>public.data</string>
-				<string>public.content</string>
+				<string>com.apple.package</string>
 			</array>
 			<key>UTTypeDescription</key>
 			<string>WhiteFlow Document</string>
 			<key>UTTypeIcons</key>
 			<dict/>
 			<key>UTTypeIdentifier</key>
-			<string>com.WhiteFlow.wflow</string>
+			<string>com.whiteflowapp.whiteflow</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
 				<array>
-					<string>wflow</string>
+					<string>wflw</string>
 				</array>
 			</dict>
 		</dict>

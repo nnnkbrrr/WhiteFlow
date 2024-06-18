@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct WhiteFlowApp: App {
     var body: some Scene {
-        DocumentGroup(newDocument: WFlowEditDocument()) { file in
-            ContentView(document: file.$document)
+        DocumentGroup(editing: .wflwDocument, migrationPlan: WFDocumentsMigrationPlan.self) {
+            ContentView()
         }
     }
 }
