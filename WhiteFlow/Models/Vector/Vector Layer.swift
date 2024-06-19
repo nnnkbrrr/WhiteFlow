@@ -8,19 +8,20 @@
 import SwiftUI
 import SwiftData
 
-class VectorLayer: Graphic {
+@Model
+class VectorLayer: Identifiable, Hashable {
+    @Attribute(.unique) var id: UUID
     var rotation: CGFloat
-    var fillColor: CGColor
-    var strokeColor: CGColor?
+//    var fillColor: CGColor
+//    var strokeColor: CGColor?
     var strokeWidth: CGFloat?
     
-    init(rotation: CGFloat, fillColor: CGColor) {
-        self.rotation = rotation
-        self.fillColor = fillColor
-        super.init()
-    }
+    var properties: WHGraphicProperties
     
-    required init(backingData: any SwiftData.BackingData<Graphic>) {
-        fatalError("init(backingData:) has not been implemented")
+    init(rotation: CGFloat, fillColor: CGColor) {
+        self.id = UUID()
+        self.rotation = rotation
+//        self.fillColor = fillColor
+        self.properties = .init()
     }
 }

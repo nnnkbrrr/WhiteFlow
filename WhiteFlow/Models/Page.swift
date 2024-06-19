@@ -8,15 +8,14 @@
 import SwiftUI
 import SwiftData
 
-class Page: Graphic {
+@Model
+class Page: Identifiable, Hashable {
+    @Attribute(.unique) var id: UUID
     var name: String
+    var position: WFPagePosition?
     
     init(name: String) {
+        self.id = UUID()
         self.name = name
-        super.init()
-    }
-    
-    required init(backingData: any SwiftData.BackingData<Graphic>) {
-        fatalError("init(backingData:) has not been implemented")
     }
 }

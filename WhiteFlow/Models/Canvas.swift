@@ -8,17 +8,17 @@
 import SwiftUI
 import SwiftData
 
-class Canvas: Graphic {
+@Model
+class Canvas: Identifiable, Hashable {
+    @Attribute(.unique) var id: UUID
     var name: String
-    var backgroundColor: Color
+//    var backgroundColor: Color
+    var properties: WHGraphicProperties
     
     init(name: String, backgroundColor: Color) {
+        self.id = UUID()
         self.name = name
-        self.backgroundColor = backgroundColor
-        super.init()
-    }
-    
-    required init(backingData: any SwiftData.BackingData<Graphic>) {
-        fatalError("init(backingData:) has not been implemented")
+//        self.backgroundColor = backgroundColor
+        self.properties = .init()
     }
 }

@@ -13,6 +13,6 @@ struct WFDocumentsMigrationPlan: SchemaMigrationPlan {
 }
 
 struct WFDocumentsVersionedSchema: VersionedSchema {
-    static let models: [any PersistentModel.Type] = [Card.self]
+    static let models: [any PersistentModel.Type] = [Page.self]
     static let versionIdentifier: Schema.Version = .init(1, 0, 0)
 }
